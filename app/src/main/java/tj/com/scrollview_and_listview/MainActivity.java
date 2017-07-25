@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
     private ScrollView mSview;
     private ArrayAdapter<String> adapter;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mLView=(ListView)findViewById(R.id.mListView);
